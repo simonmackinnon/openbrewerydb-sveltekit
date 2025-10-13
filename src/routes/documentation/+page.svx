@@ -79,10 +79,9 @@ Sort the results by distance from an origin point, denoted by
 ### `by_radius` `by_radius_unit`
 
 Filter the results by distance from the by_dist origin point, denoted by
-`radius` and `unit`. 
+`radius` (between 0.1 and 10,000) and `unit` (optional) (km or mi)
 
-<RunButton endpoint="https://api.openbrewerydb.org/v1/breweries?by_dist=32.88313237,-117.1649842&by_radius=3.0&by_radius_unit=km" />
-
+<RunButton endpoint="https://api.openbrewerydb.org/v1/breweries?by_dist=-37.8180774,144.8410025&by_radius=1.5&by_radius_unit=km" />
 
 ### `by_ids`
 
